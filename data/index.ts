@@ -132,7 +132,7 @@ export const projects = [
 			"Dose is an AI powered minimal note taking application that provides a wide range of applications including Transcription Summary, Tagging and so on.",
 		image: "/images/projects/p5.png",
 		tag: ["All", "Web"],
-		gitUrl: "/",
+		gitUrl: "https://github.com/yosef-mesfin/dose",
 		public: true,
 		previewUrl: "#",
 	},
