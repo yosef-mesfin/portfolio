@@ -1,4 +1,4 @@
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaLocationArrow, FaFileArrowUp } from "react-icons/fa6";
 
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
@@ -7,6 +7,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import AchievementsSection from "@/components/AchievementsSection";
+import Link from "next/link";
 
 const currentTechStack = [
 	{
@@ -124,13 +125,26 @@ const Hero = () => {
 						</motion.div>
 					</div>
 
-					<a href="#projects">
-						<MagicButton
-							title="Show my work"
-							icon={<FaLocationArrow />}
-							position="right"
-						/>
-					</a>
+					<div className="flex justify-center gap-4">
+						<a href="#projects">
+							<MagicButton
+								title="Show my work"
+								icon={<FaLocationArrow />}
+								position="right"
+							/>
+						</a>
+						<Link
+							href="https://drive.google.com/file/d/1QgU8_rXjJ02Gvlya4qtJunv8l7tG3cvF/view"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<MagicButton
+								title="Preview CV"
+								icon={<FaFileArrowUp />}
+								position="right"
+							/>
+						</Link>
+					</div>
 					<AchievementsSection />
 				</div>
 			</div>

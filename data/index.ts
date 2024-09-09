@@ -78,8 +78,8 @@ export const projects = [
 		image: "/images/projects/p1.png",
 		tag: ["All", "Web"],
 		gitUrl: "/",
-		public: true,
-		previewUrl: "https://golf-simulator.vercel.app",
+		public: false,
+		previewUrl: "https://golf-simulator.vercel.app/simulation-configurator",
 	},
 	{
 		id: 2,
@@ -112,7 +112,7 @@ export const projects = [
 		tag: ["All", "Web"],
 		gitUrl: "/",
 		public: false,
-		previewUrl: "https://gptify.vercel.app",
+		previewUrl: "#",
 	},
 	{
 		id: 5,
