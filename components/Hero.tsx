@@ -51,7 +51,7 @@ const Hero = () => {
 				<div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
 			</div>
 
-			<div className="flex justify-center relative my-20 z-10">
+			<div className="flex justify-center relative my-20 z-10 md:my-10">
 				<div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
 					<div className="flex items-center gap-2">
 						<p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
@@ -73,15 +73,15 @@ const Hero = () => {
 						</span>
 					</div>
 
-					<div className="flex justify-between">
-						<div className="flex flex-col justify-center">
+					<div className="flex justify-between w-inherit max-w-[100%] w-[100vw] h-[40vh] md:w-inherit md:h-inherit">
+						<div className="flex flex-col justify-between md:justify-center ">
 							<TextGenerateEffect
 								words="Hello, I'm Yosef."
-								className=" text-[40px] md:text-5xl lg:text-6xl"
+								className="text-xl md:text-4xl lg:text-6xl"
 							/>
 
-							<div className="flex">
-								<p className="mx-2 text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+							<div className="flex flex-col md:flex-row">
+								<p className="mx-2 text-center md:tracking-wider mb-2 md:mb-4 text-sm md:text-lg lg:text-2xl">
 									I&apos;m
 								</p>
 								<p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
@@ -134,7 +134,8 @@ const Hero = () => {
 							/>
 						</a>
 						<Link
-							href="https://drive.google.com/file/d/1QgU8_rXjJ02Gvlya4qtJunv8l7tG3cvF/view"
+							// href="https://drive.google.com/file/d/1QgU8_rXjJ02Gvlya4qtJunv8l7tG3cvF/view"
+							href="https://drive.google.com/file/d/1XjsCqdgd6iKtJUYlN86zvPOuANNB_k7V/view"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
