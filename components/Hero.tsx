@@ -34,7 +34,7 @@ const currentTechStack = [
 
 const Hero = () => {
 	return (
-		<div className="pb-20 pt-36 min-h-[80vh]">
+		<div className="md:pb-20 pb-5 pt-36 min-h-[80vh]">
 			<div>
 				<Spotlight
 					className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -51,7 +51,7 @@ const Hero = () => {
 				<div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
 			</div>
 
-			<div className="flex justify-center relative my-20 z-10 md:my-10">
+			<div className="flex justify-center relative md:my-20 z-10 my-10">
 				<div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
 					<div className="flex items-center gap-2">
 						<p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
@@ -74,10 +74,10 @@ const Hero = () => {
 					</div>
 
 					<div className="flex justify-between w-inherit max-w-[100%] w-[100vw] h-[40vh] md:w-inherit md:h-inherit">
-						<div className="flex flex-col justify-between md:justify-center ">
+						<div className="flex flex-col justify-between md:justify-center py-10">
 							<TextGenerateEffect
 								words="Hello, I'm Yosef."
-								className="text-xl md:text-4xl lg:text-6xl"
+								className="text-md md:text-4xl lg:text-6xl"
 							/>
 
 							<div className="flex flex-col md:flex-row">
@@ -113,7 +113,7 @@ const Hero = () => {
 							transition={{ duration: 0.5 }}
 							className="col-span-4 place-self-center mt-4 lg:mt-0"
 						>
-							<div className="mx-4 my-2 rounded-full bg-[#000000] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative overflow-hidden">
+							<div className="mx-4 my-2 rounded-full bg-[#000000] w-[230px] h-[230px] lg:w-[400px] lg:h-[400px] relative overflow-hidden">
 								<Image
 									src="/images/hero-image.jpg"
 									alt="hero image"
